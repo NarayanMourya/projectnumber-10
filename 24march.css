@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+section{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+    /* display: flex; */
+    /* position: relative; */
+
+}
+nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 3vmax;
+    
+
+}
+nav ul li{
+    padding: 1.4vmax ;
+    font-size: 1.5vmax;
+    font-weight: 600;
+    font-family:sans-serif;
+    color: red;
+}
+nav h1{
+    font-size: 3vmax;
+    font-weight: 600;
+    font-family: 'Times New Roman';
+    color: red;    
+}
+nav h3{
+    color: red;
+}
+nav button{
+    margin-right: 2vmax;
+    border: .2vmax solid black;
+    border-radius: 3vmax;
+    padding: .5vmax 2vmax;
+    font-size: 1.5vmax;
+    font-weight: 600;
+    font-family: sans-serif;
+    background-color: red;
+    color: white;
+
+ }
+#div1{
+    height: 90%;
+    width: 50%;
+    /* background-color: rgb(171, 173, 162); */
+    float: left;
+    
+}
+ 
+#div1 > .content{
+    margin: 12vmax 12vmax;
+    font-size: 2vmax;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+#div1>.content>button{
+    padding: .5vmax 1vmax;
+    font-size: 1.4vmax;
+    font-weight: 600;
+    font-family:  sans-serif;
+    border-radius: 3vmax;
+    background-color: red;
+    color: white;
+}
+#div2{
+    height: 50%;
+    width: 40%;
+    background-color: rgb(235, 18, 18);
+    /* position: absolute; */
+    z-index: -111;    
+    float: right;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7vmax;
+    background-color: aquamarine;
+}
